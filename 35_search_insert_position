@@ -26,6 +26,7 @@ nums contains distinct values sorted in ascending order.
 -10^4 <= target <= 10^4
 """
 
+# Track the first index less than the target's index.
 class Solution(object):
     def searchInsert(self, nums, target):
         """
